@@ -12,4 +12,3 @@ app.get('/public', function(req, res) {
 })
 
 app.listen(3001);
-console.log("API server listening on " + process.env.API_URL);
